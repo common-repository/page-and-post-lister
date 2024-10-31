@@ -1,0 +1,209 @@
+#cg_iframe,
+textarea#html_code,
+#preview {
+    width:850px;
+    height:350px;
+    overflow: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.notice {
+   color:#FF0000;
+}
+
+.na {
+   background-color: #CCFF99;
+   color: #FF0000;
+}
+
+a {
+  font-weight:normal;
+}
+
+table#cg_pages td {
+   font-size:8pt !important;
+   font-family:verdana,sans-serif;
+}
+
+table#cg_pages tr.dir td {
+   font-size:10pt;
+   font-family:verdana,sans-serif;
+   background-color: #FFFF33
+}
+
+table#errors td {
+	padding:3px;
+    vertical-align: top;
+}
+
+table#errors tr.odd td {
+	background-color: #E8E8E8;
+}
+
+table#errors th {
+	background-color: #000000;
+	color:#ffffff;
+	font-weight:bold;
+	
+}
+
+.refbox {
+	width:400px;
+	overflow:auto;
+}
+
+.refbox2 {
+	width:400px;
+	overflow:auto;
+}
+
+#cg_debugger a.deadlink {
+	border:2px solid #ff0000;
+	padding:2px;
+	background-color: #FFFF66;
+}
+
+#error_pop {
+   border: 1px solid #FF6600;
+   height: 50px;
+   margin-top:10px;
+   padding:5px;
+   background-color: #FFFFB0;
+   width:96%;
+}
+
+
+.view,
+.co {
+  margin-left:5px;
+}
+
+td.cc {
+  text-align:center!important;
+}
+
+.view a,
+table#cg_pages td.stat,
+table#cg_pages td.tem,
+.co a {
+  font-size:7pt !important;
+  color: #339900;
+  font-style:normal;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+td.per {
+  font-size:8pt;
+  color: #5F5F5F;
+}
+
+
+td.level_1 {
+   padding-left:20px;
+}
+
+td.level_2 {
+   padding-left:40px;
+}
+
+td.level_3 {
+   padding-left:60px;
+}
+
+td.level_4 {
+   padding-left:80px;
+}
+
+td.level_5 {
+   padding-left:100px;
+}
+
+table#cg_pages {
+  border:1px solid #BFBFBF;
+  margin-top:20px;
+}
+
+
+table#cg_pages th {
+  background-color: #DFDFDF;
+  color: #000000;
+  font-family: arial, sans-serif;
+  padding: 3px;
+  font-size:8pt;
+  font-weight:bold;
+  border-bottom:2px solid #CFCFCF
+}
+
+
+table#cg_pages .alter td {
+  background-color: #F0F0F0;
+}
+
+
+table#cg_pages .clicked td {
+  background-color:#FFCCFF;
+}
+
+table#cg_pages tr:hover td {
+  background-color: #CCFF99;
+}
+
+table#cg_pages td.da {
+  font-size:7pt !important;
+  text-align:center;
+}
+
+span.del_icon {
+  background-image: url(icons.png);
+  background-position: -80px -130px;
+  background-repeat: no-repeat;
+  height:20px;
+  width:20px;
+}
+
+span.view_icon {
+  background-image: url(icons.png);
+  background-position: -160px -115px;
+  background-repeat: no-repeat;
+  height:20px;
+  width:20px;
+}
+
+span.view_icon a {
+  text-decoration:none;
+}
+
+
+td.ic {
+  text-align:center;
+}
+
+
+#wpcontent option.lev-0 {
+	font-weight: bold;
+}
+
+#wpcontent  option.lev-1 {
+	margin-left:15px;
+}
+
+#batch_actions {
+   padding:3px;
+   background-color: #F7F7F7;
+   margin:5px 0px;
+   width:99%;
+}
+
+tr.category td {
+  background-color: #D6D6D6;
+  color: #000066
+}
+
+tr.post td.title {
+  padding-left:20px;
+}
+
